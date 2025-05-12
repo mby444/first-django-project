@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.pyenv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database (jika pakai SQLite)
+*.sqlite3
+
+# Django migration files (opsional)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# VS Code dan IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variable files
+.env
+*.env
+
+# Static & media files (jika dikompilasi otomatis)
+staticfiles/
+media/
+
+# Node modules (jika pakai npm)
+node_modules/
+
+# Coverage dan testing
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# pip log
+pip-log.txt
+
+# Pytest cache
+.pytest_cache/
+
+# MacOS files
+.DS_Store
