@@ -3,4 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def firstapp(request):
-    return HttpResponse("OK")
+    context = {
+        "message": "Hello world!"
+    }
+    return render(request, "index.html", context)
